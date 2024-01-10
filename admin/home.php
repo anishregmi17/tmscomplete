@@ -7,14 +7,6 @@ if (!isset($_SESSION['email'])) {
 }
 ?>
 
-<!-- this code ensures that a user is redirected to the 'index.php' page if
-  they are not logged in (i.e., if the 'email' session variable is not set). 
-  The inclusion of "config.php" suggests that there might be some configuration or 
- database setup happening in that file. If you have more specific questions or if 
- there's additional code you'd like help with, feel free to provide more details. -->
-
-
-
 <!doctype html>
 <html lang="en">
 
@@ -28,7 +20,8 @@ if (!isset($_SESSION['email'])) {
 <body>
 
 
-<!-- navbar section in home -->
+    <!-- navbar section in home -->
+
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
             <div class="container">
@@ -72,9 +65,9 @@ if (!isset($_SESSION['email'])) {
             </div>
         </nav>
 
-        
+
         <div>
-        <!-- this php code is to alert for "login sucess" -->
+        <!-- this php code is to alert for "login sucess i.e.yo code navaye ni hunxa" -->
             <?php
             if (isset($_GET['msg']) && $_GET['msg'] == 'login_success') {
             ?>
@@ -86,7 +79,6 @@ if (!isset($_SESSION['email'])) {
             }
             ?>
         </div>
-
 
 
         <!-- other section,sidebar and footer -->
@@ -129,7 +121,6 @@ if (!isset($_SESSION['email'])) {
                                 <h5 class="card-title">Card title</h5>
                                 <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                b5
                             </div>
                         </div>
                     </div>

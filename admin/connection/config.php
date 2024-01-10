@@ -12,7 +12,5 @@ $con = new mysqli($servername, $username, $password, $dbname);
 // } else {
 //     echo "Database is not connected successfully";
 // }
-
 // mysqli_close($con);
-
 ?>
